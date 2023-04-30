@@ -8,6 +8,7 @@ public class ClassController {
 
     @GetMapping("/")
     public String getHello(){
-        return "Hello world";
+        System.out.println("Hello world");
+        return "Hello world... this is maven learning the world";
     }
 }
